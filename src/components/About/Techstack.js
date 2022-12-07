@@ -1,52 +1,154 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
+  DiHtml5,
+  DiCss3Full,
+  DiAngularSimple,
+  DiSass,
 } from "react-icons/di";
 import {
-  SiPytorch,
   SiFirebase,
-  SiNextdotjs,
+  SiRedux,
+  SiFlask,
+  SiDjango,
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.python.org/"
+        >
+          <DiPython />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.djangoproject.com/"
+        >
+          <SiDjango />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://flask.palletsprojects.com/"
+        >
+          <SiFlask />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://html.spec.whatwg.org/multipage/"
+        >
+          <DiHtml5 />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://drafts.csswg.org/"
+        >
+          <DiCss3Full />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://sass-lang.com/"
+        >
+          <DiSass />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.javascript.com/"
+        >
+          <DiJavascript1 />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://nodejs.org/"
+        >
+          <DiNodejs />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.typescriptlang.org/"
+        >
+          <SiTypescript />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://reactjs.org/"
+        >
+          <DiReact />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://redux.js.org/"
+        >
+          <SiRedux />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://angular.io/"
+        >
+          <DiAngularSimple />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a
+          className="stack-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://angular.io/"
+        >
+          <SiFirebase />
+        </a>
       </Col>
     </Row>
   );
