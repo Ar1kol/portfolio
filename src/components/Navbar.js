@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import { AiOutlineDownload } from "react-icons/ai";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -25,7 +24,6 @@ function NavBar() {
       updateNavbar(false);
     }
   }
-
   window.addEventListener("scroll", scrollHandler);
 
   return (
@@ -56,7 +54,6 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -66,7 +63,6 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -75,14 +71,13 @@ function NavBar() {
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />{" "}
+                />
                 Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn" style={{ marginTop: "8px" }}>
               <Button href={pdf} target="_blank" className="fork-btn-inner">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-                <AiOutlineDownload />
               </Button>
             </Nav.Item>
           </Nav>
