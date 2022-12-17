@@ -19,9 +19,10 @@ function Projects() {
             <ProjectCard
               imgPath={etherealShoes}
               title="Etheral Shoes"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              gitHubLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="E-commerce app building uses Django, React, and Redux. The app implements a complete purchase process from product selection to payment, as well as PayPal and Google Pay payment systems. The app includes the following:
+              sign-up & sign-in flow for consumers and merchant, admin dashboard, payment & shipping integrations"
+              gitHubLink="https://github.com/Ar1kol/Etheralshoes-shop/"
+              demoLink="https://etherealshoes.netlify.app/"
             />
           </Col>
 
@@ -29,9 +30,9 @@ function Projects() {
             <ProjectCard
               imgPath={web3}
               title="Krypt"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              gitHubLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Web3 app for connecting Metamask Wallet and transferring Ethereum(ETH) to other wallets. The transaction process is implemented through a smart contract. The app is built on React and TailwindCSS as well as the smart contract is written in Solidity."
+              gitHubLink="https://github.com/Ar1kol/project_web3/"
+              demoLink="https://web3-krypt-project.netlify.app/"
             />
           </Col>
 
@@ -39,33 +40,32 @@ function Projects() {
             <ProjectCard
               imgPath={game2048}
               title="2048"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              gitHubLink="https://github.com/soumyajit4419/Editor.io"
+              description="The game 2048 is built using the Python Pygame module. The program has been converted to .exe, which allows to download the game to a computer and start playing. When the game window is closed, an auto-save is made and it is possible to continue from the point at which the game was interrupted. Game results are stored in the database."
+              gitHubLink="https://github.com/Ar1kol/pygame_2048/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={comingSoon}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Self-Driving Car"
+              description="The self-driving car simulation is built on a neural network using pure JavaScript with no using libraries. Complete car driving mechanics, define the environment, simulate some sensors, detect collisions, and make the car control itself using a neural network."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={comingSoon}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Weather App"
+              description="A weather application written in React receives weather data from the OpenWeatherMap API. Using the GeoDB API, you can find out the weather in a particular city, as well as get a weather forecast for the next two weeks in this city."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={comingSoon}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Social media app"
+              description="Social media app with email and Google Authentication, pagination, search and filtering capabilities, comments, and much more, this app is the best fully responsive MERN social media app."
             />
           </Col>
         </Row>

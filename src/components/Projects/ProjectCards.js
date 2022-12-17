@@ -13,11 +13,15 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         {props.gitHubLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
+          <Button
+            style={{ margin: 5 }}
+            variant="primary"
+            href={props.gitHubLink}
+            target="_blank"
+          >
             <BsGithub /> &nbsp; GitHub
           </Button>
         )}
-        {"\n"}
         {props.demoLink && (
           <Button
             variant="primary"

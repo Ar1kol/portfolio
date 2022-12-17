@@ -28,6 +28,10 @@ html {
   --imp-text-color: #c770f0;
 }
 
+.App {
+  text-align: center;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }

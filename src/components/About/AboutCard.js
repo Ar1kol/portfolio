@@ -1,6 +1,8 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { GiPalette } from "react-icons/gi";
+import { CgGym } from "react-icons/cg";
+import { SiYourtraveldottv } from "react-icons/si";
+import { FaHandsHelping } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -8,22 +10,25 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Arkadiy Kolomiets!</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br />I am a graduate of John Bryce and a junior software developer
+            at IdeaSoft company.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Besides programming, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <CgGym />&nbsp; Sport - Gym and Running
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <SiYourtraveldottv />&nbsp; Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FaHandsHelping />&nbsp; Helping People - Volunteer
+            </li>
+
+            <li className="about-activity">
+              <GiPalette />&nbsp; Art - Visiting Exhibitions and Workshops
             </li>
           </ul>
         </blockquote>
