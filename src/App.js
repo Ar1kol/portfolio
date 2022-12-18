@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
