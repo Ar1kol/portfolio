@@ -2,31 +2,26 @@
 
 # Portfolio
 
-<a href="https://web3-krypt-project.netlify.app/" target="_blank">
+<a href="https://arkadiy-kolomiets.netlify.app/" target="_blank">
 <img src="https://img.shields.io/badge/Portfolio-282C34" alt="Site" margin="100px" height="35" />
 </a>
 &nbsp;
 <hr>
-<img src="images/web3.png" alt="web3 screen">
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project<a></li>
-    <li><a href="#built-with">Built with</a></li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#setup">SETUP</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
+<img src="images/portfolio-screen.png" alt="web3 screen">
 
 ## About The Project
 
-Arkadiy Kolomiets Portfolio
+My personal portfolio features some of my GitHub projects as well as my resume and technical skills.
+
+### Features
+
+📖 Multi-Page Layout
+
+🎨 Styled with React-Bootstrap and Css with easy to customize colors
+
+📱 Fully Responsive
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built with
 <a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5 logo"/> </a>&nbsp;
