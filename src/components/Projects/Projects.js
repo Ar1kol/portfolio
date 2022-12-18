@@ -5,6 +5,7 @@ import comingSoon from "../../Assets/Projects/coming-soon.png";
 import etherealShoes from "../../Assets/Projects/etherealShoes.png";
 import web3 from "../../Assets/Projects/web-3.png";
 import game2048 from "../../Assets/Projects/2048.png";
+import car from "../../Assets/Projects/self-driving_car.png";
 
 function Projects() {
   return (
@@ -47,9 +48,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingSoon}
+              imgPath={car}
               title="Self-Driving Car"
               description="The self-driving car simulation is built on a neural network using pure JavaScript with no using libraries. Complete car driving mechanics, define the environment, simulate some sensors, detect collisions, and make the car control itself using a neural network."
+              gitHubLink="https://github.com/gniziemazity/Self-driving-car/"
+              demoLink="https://ar1kol.github.io/self-driving_car/"
             />
           </Col>
 

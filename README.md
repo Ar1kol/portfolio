@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Arkadiy Kolomiets - Portfolio
 
-## Available Scripts
+<a href="https://web3-krypt-project.netlify.app/" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-282C34" alt="Site" margin="100px" height="35" />
+</a>
+&nbsp;
+<hr>
+<img src="images/web3.png" alt="web3 screen">
 
-In the project directory, you can run:
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project<a></li>
+      <ul>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    <li><a href="#built-with">Built with</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#setup">SETUP</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Web3 app for connecting Metamask Wallet and transferring Ethereum(ETH) to other wallets.
 
-### `npm test`
+### Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] Connection to MetaMask wallet
+- [ ] Transferring ETH 
+- [ ] Transactions history 
+- [ ] Adding gif for any transaction by sending a message
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built with
+<a href="https://docs.soliditylang.org/en/v0.8.17/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=Solidity&logoColor=white" alt="Solidity logo"/> </a>&nbsp;
+<a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5 logo"/> </a>&nbsp;
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3 logo"/> </a>&nbsp;
+<a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" alt="javascript logo"/> </a>&nbsp;
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs logo"/> </a>&nbsp;
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white" alt="Tailwind CSS logo"/> </a>&nbsp;
+<a href="https://axios-http.com/docs/intro" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white" alt="Axios logo"/> </a>&nbsp;
+<a href="https://app.netlify.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=Netlify&logoColor=white" alt="Netlify logo"/> </a>&nbsp;
+<a href="https://giphy.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/GIPHY-FF6666?style=for-the-badge&logo=GIPHY&logoColor=white" alt="GIPHY logo"/> </a>&nbsp;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow this simple example step.
+   ```sh
+    git clone "the repository name"
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### SETUP
+_Below is an instructions on installing and setting up the app._
+1. Install Node.js latest version - https://nodejs.org/en/
+   ```sh
+    npm i
+    npm start
+   ```
+2. Download MetaMask wallet - https://metamask.io/
+3. Sign Up to GIPHY for using gifs - https://giphy.com/
+4. Create a new app in GIPHY
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
